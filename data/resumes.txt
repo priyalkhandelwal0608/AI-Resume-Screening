@@ -1,0 +1,22 @@
+John Doe
+Experienced Python developer with 3 years in machine learning projects. 
+Worked extensively with scikit-learn, pandas, and NumPy. 
+Strong background in SQL and data visualization using matplotlib.
+
+---
+Jane Smith
+Data Scientist with expertise in NLP and deep learning. 
+Hands-on experience with TensorFlow, PyTorch, and BERT embeddings. 
+Developed production-ready ML pipelines and deployed models on AWS.
+
+---
+Michael Lee
+Software Engineer with focus on backend development. 
+Skilled in Java, Spring Boot, and MySQL. 
+Limited exposure to machine learning but strong problem-solving skills.
+
+---
+Priya Sharma
+Machine Learning Engineer with 2 years of experience in fraud detection. 
+Proficient in Python, scikit-learn, and cloud deployment on Azure. 
+Worked on NLP tasks including text classification and keyword extraction.

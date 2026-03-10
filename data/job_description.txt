@@ -1,0 +1,3 @@
+We are seeking a Data Scientist with strong skills in Python, Machine Learning, and NLP. 
+Experience with scikit-learn, TensorFlow, and data visualization tools is required. 
+Knowledge of SQL and cloud platforms (AWS, Azure) is a plus.
