@@ -1,3 +1,199 @@
-We are seeking a Data Scientist with strong skills in Python, Machine Learning, and NLP. 
-Experience with scikit-learn, TensorFlow, and data visualization tools is required. 
+We are seeking a Data Scientist with strong skills in Python, Machine Learning, and NLP.
+Experience with scikit-learn, TensorFlow, and data visualization tools is required.
 Knowledge of SQL and cloud platforms (AWS, Azure) is a plus.
+---
+Looking for a Frontend Developer proficient in React.js, JavaScript, and CSS.
+Experience with responsive design frameworks and API integration is required.
+Knowledge of backend systems is a plus.
+---
+Hiring a Cloud Engineer with expertise in AWS, Kubernetes, and Docker.
+Experience with CI/CD pipelines and monitoring tools is required.
+Knowledge of security best practices is a plus.
+---
+We need a Business Analyst with strong skills in SQL, Excel, and data visualization.
+Experience with BI tools like Power BI or Tableau is required.
+Knowledge of financial modeling is a plus.
+---
+Seeking a Machine Learning Engineer with experience in deep learning frameworks.
+Proficiency in PyTorch, TensorFlow, and model deployment is required.
+Knowledge of MLOps practices is a plus.
+---
+Looking for a Cybersecurity Analyst with expertise in penetration testing and threat detection.
+Experience with SIEM tools and cloud security is required.
+Knowledge of compliance frameworks is a plus.
+---
+Hiring a DevOps Engineer with strong skills in CI/CD, Docker, and Kubernetes.
+Experience with cloud platforms and monitoring tools is required.
+Knowledge of scripting languages is a plus.
+---
+We are seeking a Product Manager with experience in agile methodologies.
+Strong communication and stakeholder management skills are required.
+Knowledge of data-driven decision making is a plus.
+---
+Looking for an AR/VR Developer with expertise in Unity and Unreal Engine.
+Experience with 3D modeling and immersive experiences is required.
+Knowledge of C# or C++ is a plus.
+---
+Hiring a Quantum Machine Learning Researcher with strong mathematical background.
+Experience with Qiskit or Cirq is required.
+Knowledge of linear algebra and quantum computing principles is a must.
+---
+Seeking a Speech Emotion Recognition Engineer with expertise in audio signal processing.
+Experience with Librosa, PyTorch, and transformer models is required.
+Knowledge of psychology and affective computing is a plus.
+---
+Looking for a News Recommendation Scientist with expertise in recommender systems.
+Experience with collaborative filtering and NLP is required.
+Knowledge of personalization algorithms is a plus.
+---
+Hiring an ETL Pipeline Developer with strong skills in SQL and Python.
+Experience with Airflow or Luigi is required.
+Knowledge of data warehousing is a plus.
+---
+We need a Career Path Recommendation Engineer with expertise in graph neural networks.
+Experience with PyTorch Geometric or DGL is required.
+Knowledge of embeddings and recommendation systems is a plus.
+---
+Seeking a Cognitive Wellness AI Engineer with expertise in multimodal ML.
+Experience with NLP, audio analysis, and reinforcement learning is required.
+Knowledge of psychology and UX design is a plus.
+---
+Looking for an Energy Optimization Specialist with expertise in smart grids.
+Experience with optimization algorithms and IoT is required.
+Knowledge of renewable energy systems is a plus.
+---
+Hiring a Robotics Engineer with strong skills in ROS and computer vision.
+Experience with SLAM and path planning is required.
+Knowledge of reinforcement learning is a plus.
+---
+We are seeking a Biomedical Data Scientist with expertise in genomics.
+Experience with bioinformatics tools and ML is required.
+Knowledge of healthcare regulations is a plus.
+---
+Looking for a Financial Data Analyst with strong skills in R and Python.
+Experience with time series forecasting is required.
+Knowledge of risk modeling is a plus.
+---
+Hiring a Supply Chain Optimization Engineer with expertise in operations research.
+Experience with simulation tools and ML is required.
+Knowledge of logistics is a plus.
+---
+Seeking a Natural Language Processing Engineer with expertise in transformers.
+Experience with HuggingFace models is required.
+Knowledge of semantic search is a plus.
+---
+Looking for a Computer Vision Engineer with expertise in image classification.
+Experience with CNNs and OpenCV is required.
+Knowledge of deployment on mobile devices is a plus.
+---
+Hiring a Blockchain Developer with expertise in smart contracts.
+Experience with Ethereum or Hyperledger is required.
+Knowledge of cryptography is a plus.
+---
+We need a Recommendation System Engineer with expertise in hybrid models.
+Experience with matrix factorization and deep learning is required.
+Knowledge of personalization is a plus.
+---
+Seeking a Human-Computer Interaction Specialist with expertise in UX research.
+Experience with usability testing is required.
+Knowledge of cognitive psychology is a plus.
+---
+Looking for a Data Engineer with expertise in big data frameworks.
+Experience with Spark and Hadoop is required.
+Knowledge of cloud data pipelines is a plus.
+---
+Hiring a Healthcare AI Engineer with expertise in medical imaging.
+Experience with CNNs and segmentation is required.
+Knowledge of healthcare compliance is a plus.
+---
+We are seeking a Marketing Data Scientist with expertise in customer segmentation.
+Experience with clustering and predictive analytics is required.
+Knowledge of A/B testing is a plus.
+---
+Looking for a Sports Analytics Engineer with expertise in player performance modeling.
+Experience with time series and ML is required.
+Knowledge of biomechanics is a plus.
+---
+Hiring a Climate Data Scientist with expertise in environmental modeling.
+Experience with geospatial data and ML is required.
+Knowledge of sustainability is a plus.
+---
+Seeking a Recommendation Scientist for e-learning platforms.
+Experience with collaborative filtering and NLP is required.
+Knowledge of personalization is a plus.
+---
+Looking for a Fraud Detection Engineer with expertise in anomaly detection.
+Experience with ML and graph analysis is required.
+Knowledge of financial systems is a plus.
+---
+Hiring a Social Media Data Scientist with expertise in sentiment analysis.
+Experience with NLP and embeddings is required.
+Knowledge of influencer analytics is a plus.
+---
+We need a Smart City Data Engineer with expertise in IoT.
+Experience with real-time data pipelines is required.
+Knowledge of optimization is a plus.
+---
+Seeking a Retail Analytics Specialist with expertise in demand forecasting.
+Experience with ML and time series is required.
+Knowledge of supply chain is a plus.
+---
+Looking for a Recommendation Scientist for healthcare treatments.
+Experience with graph ML and NLP is required.
+Knowledge of medical guidelines is a plus.
+---
+Hiring a Transportation Optimization Engineer with expertise in route planning.
+Experience with ML and simulation is required.
+Knowledge of logistics is a plus.
+---
+We are seeking a LegalTech Data Scientist with expertise in document analysis.
+Experience with NLP and embeddings is required.
+Knowledge of compliance is a plus.
+---
+Looking for a Music Recommendation Engineer with expertise in audio embeddings.
+Experience with deep learning and signal processing is required.
+Knowledge of personalization is a plus.
+---
+Hiring a Fashion Recommendation Scientist with expertise in computer vision.
+Experience with CNNs and embeddings is required.
+Knowledge of retail is a plus.
+---
+Seeking a Personalized Wellness Coach AI Engineer.
+Experience with multimodal ML and reinforcement learning is required.
+Knowledge of psychology is a plus.
+---
+Looking for a Recommendation Scientist for career mentoring.
+Experience with graph ML and NLP is required.
+Knowledge of HR systems is a plus.
+---
+Hiring a Smart Agriculture Data Scientist with expertise in crop prediction.
+Experience with ML and IoT is required.
+Knowledge of sustainability is a plus.
+---
+We need a Recommendation Scientist for books and literature.
+Experience with NLP and embeddings is required.
+Knowledge of personalization is a plus.
+---
+Seeking a Recommendation Scientist for podcasts.
+Experience with audio embeddings and NLP is required.
+Knowledge of personalization is a plus.
+---
+Looking for a Recommendation Scientist for travel itineraries.
+Experience with graph ML and NLP is required.
+Knowledge of tourism is a plus.
+---
+Hiring a Recommendation Scientist for mental health support.
+Experience with multimodal ML and reinforcement learning is required.
+Knowledge of psychology is a plus.
+---
+We are seeking a Recommendation Scientist for personalized learning.
+Experience with NLP and reinforcement learning is required.
+Knowledge of pedagogy is a plus.
+---
+Looking for a Recommendation Scientist for personalized fitness.
+Experience with sensor data and ML is required.
+Knowledge of physiology is a plus.
+---
+Hiring a Recommendation Scientist for personalized nutrition.
+Experience with ML and health data is required.
+Knowledge of dietetics is a plus.
