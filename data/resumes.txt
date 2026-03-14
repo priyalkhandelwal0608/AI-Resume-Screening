@@ -1,22 +1,269 @@
 John Doe
-Experienced Python developer with 3 years in machine learning projects. 
-Worked extensively with scikit-learn, pandas, and NumPy. 
+Experienced Python developer with 3 years in machine learning projects.
+Worked extensively with scikit-learn, pandas, and NumPy.
 Strong background in SQL and data visualization using matplotlib.
-
 ---
 Jane Smith
-Data Scientist with expertise in NLP and deep learning. 
-Hands-on experience with TensorFlow, PyTorch, and BERT embeddings. 
+Data Scientist with expertise in NLP and deep learning.
+Hands-on experience with TensorFlow, PyTorch, and BERT embeddings.
 Developed production-ready ML pipelines and deployed models on AWS.
-
 ---
 Michael Lee
-Software Engineer with focus on backend development. 
-Skilled in Java, Spring Boot, and MySQL. 
+Software Engineer with focus on backend development.
+Skilled in Java, Spring Boot, and MySQL.
 Limited exposure to machine learning but strong problem-solving skills.
-
 ---
 Priya Sharma
-Machine Learning Engineer with 2 years of experience in fraud detection. 
-Proficient in Python, scikit-learn, and cloud deployment on Azure. 
+Machine Learning Engineer with 2 years of experience in fraud detection.
+Proficient in Python, scikit-learn, and cloud deployment on Azure.
 Worked on NLP tasks including text classification and keyword extraction.
+---
+Alice Johnson
+Frontend Developer with 3 years of experience building responsive web applications.
+Proficient in React.js, JavaScript, and CSS.
+Worked on integrating REST APIs and deploying apps on AWS.
+---
+Rahul Mehta
+Backend Developer with expertise in Java and Spring Boot.
+Strong knowledge of databases and cloud infrastructure.
+Limited experience with frontend frameworks.
+---
+Sophia Lee
+UI/UX Designer with a background in creating modern, user-friendly interfaces.
+Skilled in Figma, Adobe XD, and CSS.
+Collaborated with developers to implement responsive designs in React projects.
+---
+David Kim
+Full Stack Developer with 4 years of experience.
+Strong in React.js, Node.js, and GraphQL.
+Built scalable applications and deployed them on Azure cloud.
+---
+Ananya Gupta
+Cloud Engineer with 5 years of experience in AWS and Kubernetes.
+Designed CI/CD pipelines and automated deployments.
+Strong knowledge of Docker and monitoring tools.
+---
+Carlos Martinez
+Cybersecurity Analyst with expertise in penetration testing and threat detection.
+Worked with SIEM tools and cloud security audits.
+Knowledge of compliance frameworks like GDPR and HIPAA.
+---
+Emily Brown
+DevOps Engineer with 4 years of experience in CI/CD and containerization.
+Proficient in Docker, Kubernetes, and Jenkins.
+Worked on cloud deployments and monitoring systems.
+---
+Daniel White
+Product Manager with 6 years of experience in agile environments.
+Skilled in stakeholder management and roadmap planning.
+Strong background in data-driven decision making.
+---
+Hiro Tanaka
+AR/VR Developer with expertise in Unity and Unreal Engine.
+Worked on immersive 3D experiences and simulations.
+Strong knowledge of C# and C++.
+---
+Olivia Green
+Quantum ML Researcher with background in physics and mathematics.
+Hands-on experience with Qiskit and Cirq.
+Published papers on quantum algorithms for ML.
+---
+Mark Evans
+Speech Emotion Recognition Engineer with expertise in audio signal processing.
+Worked with Librosa and PyTorch for emotion classification.
+Knowledge of psychology and affective computing.
+---
+Fatima Khan
+News Recommendation Scientist with expertise in recommender systems.
+Worked on collaborative filtering and NLP-based personalization.
+Experience with large-scale recommendation pipelines.
+---
+George Wilson
+ETL Pipeline Developer with strong skills in SQL and Python.
+Built pipelines using Airflow and Luigi.
+Worked on data warehousing and reporting systems.
+---
+Laura Chen
+Career Path Recommendation Engineer with expertise in graph neural networks.
+Worked with PyTorch Geometric and embeddings.
+Designed recommendation systems for HR platforms.
+---
+Ahmed Ali
+Cognitive Wellness AI Engineer with expertise in multimodal ML.
+Worked on NLP, audio analysis, and reinforcement learning.
+Designed adaptive recommendation systems for wellness apps.
+---
+Samantha Wright
+Energy Optimization Specialist with expertise in smart grids.
+Worked on optimization algorithms and IoT-based energy systems.
+Knowledge of renewable energy integration.
+---
+Robert King
+Robotics Engineer with strong skills in ROS and computer vision.
+Worked on SLAM and path planning projects.
+Experience with reinforcement learning in robotics.
+---
+Maria Lopez
+Biomedical Data Scientist with expertise in genomics.
+Worked with bioinformatics tools and ML models.
+Knowledge of healthcare regulations and compliance.
+---
+Thomas Brown
+Financial Data Analyst with strong skills in R and Python.
+Experience with time series forecasting and risk modeling.
+Worked on financial dashboards and reporting.
+---
+Jessica Adams
+Supply Chain Optimization Engineer with expertise in operations research.
+Worked on simulation tools and ML-based logistics optimization.
+Knowledge of inventory management systems.
+---
+Kevin Zhang
+NLP Engineer with expertise in transformers and semantic search.
+Worked with HuggingFace models for text classification.
+Experience in building semantic search engines.
+---
+Natalie Scott
+Computer Vision Engineer with expertise in image classification.
+Worked with CNNs and OpenCV for detection tasks.
+Experience with mobile deployment of vision models.
+---
+Peter Johnson
+Blockchain Developer with expertise in smart contracts.
+Worked with Ethereum and Hyperledger.
+Knowledge of cryptography and decentralized applications.
+---
+Hannah Davis
+Recommendation System Engineer with expertise in hybrid models.
+Worked on matrix factorization and deep learning recommenders.
+Experience with personalization pipelines.
+---
+Andrew Miller
+Human-Computer Interaction Specialist with expertise in UX research.
+Conducted usability testing and cognitive walkthroughs.
+Knowledge of psychology and design principles.
+---
+Chloe Anderson
+Data Engineer with expertise in big data frameworks.
+Worked with Spark and Hadoop for ETL pipelines.
+Experience with cloud data storage solutions.
+---
+Jason Carter
+Healthcare AI Engineer with expertise in medical imaging.
+Worked with CNNs for segmentation tasks.
+Knowledge of healthcare compliance frameworks.
+---
+Rachel Patel
+Marketing Data Scientist with expertise in customer segmentation.
+Worked with clustering and predictive analytics.
+Experience with A/B testing and campaign optimization.
+---
+Steven Moore
+Sports Analytics Engineer with expertise in player performance modeling.
+Worked with time series forecasting and ML.
+Knowledge of biomechanics and sports science.
+---
+Angela Rivera
+Climate Data Scientist with expertise in environmental modeling.
+Worked with geospatial data and ML.
+Knowledge of sustainability and climate policy.
+---
+Victor Chen
+E-learning Recommendation Scientist with expertise in personalization.
+Worked with collaborative filtering and NLP.
+Experience with adaptive learning systems.
+---
+Grace Thompson
+Fraud Detection Engineer with expertise in anomaly detection.
+Worked with ML and graph analysis for fraud prevention.
+Knowledge of financial systems and compliance.
+---
+Benjamin Harris
+Social Media Data Scientist with expertise in sentiment analysis.
+Worked with NLP and embeddings for influencer analytics.
+Experience with trend prediction models.
+---
+Isabella Martinez
+Smart City Data Engineer with expertise in IoT.
+Worked on real-time data pipelines for urban systems.
+Knowledge of optimization and sustainability.
+---
+Ethan Walker
+Retail Analytics Specialist with expertise in demand forecasting.
+Worked with ML and time series models.
+Experience with supply chain optimization.
+---
+Sophia Taylor
+Healthcare Recommendation Scientist with expertise in graph ML.
+Worked on NLP-based treatment recommendation systems.
+Knowledge of medical guidelines and compliance.
+---
+Lucas White
+Transportation Optimization Engineer with expertise in route planning.
+Worked with ML and simulation tools.
+Knowledge of logistics and fleet management.
+---
+Maya Singh
+LegalTech Data Scientist with expertise in document analysis.
+Worked with NLP and embeddings for compliance.
+Experience with legal document classification.
+---
+Noah Brooks
+Music Recommendation Engineer with expertise in audio embeddings.
+Worked with deep learning and signal processing.
+Experience with personalization systems.
+---
+Emma Wilson
+Fashion Recommendation Scientist with expertise in computer vision.
+Worked with CNNs for clothing recognition.
+Experience with retail personalization.
+---
+Oliver James
+Personalized Wellness Coach AI Engineer.
+Worked with multimodal ML and reinforcement learning.
+Knowledge of psychology and adaptive systems.
+---
+Charlotte King
+Career Mentoring Recommendation Scientist with expertise in graph ML.
+Worked on HR recommendation systems.
+Experience with NLP-based mentoring platforms.
+---
+Liam Scott
+Smart Agriculture Data Scientist with expertise in crop prediction.
+Worked with ML and IoT sensors.
+Knowledge of sustainability and farming practices.
+---
+Amelia Brown
+Book Recommendation Scientist with expertise in NLP.
+Worked with embeddings for literature personalization.
+Experience with semantic similarity models.
+---
+Henry Clark
+Podcast Recommendation Scientist with expertise in audio embeddings.
+Worked with NLP and personalization systems.
+Experience with large-scale recommendation pipelines.
+---
+Ella Davis
+Travel Recommendation Scientist with expertise in graph ML.
+Worked on itinerary planning and NLP-based personalization.
+Knowledge of tourism and cultural data.
+---
+William Harris
+Mental Health Recommendation Scientist with expertise in multimodal ML.
+Worked on reinforcement learning for adaptive support.
+Knowledge of psychology and therapy practices.
+---
+Zoe Parker
+Personalized Learning Recommendation Scientist with expertise in NLP.
+Worked on reinforcement learning for adaptive education.
+Knowledge of pedagogy and learning sciences.
+---
+James Allen
+Fitness Recommendation Scientist with expertise in sensor data.
+Worked with ML models for personalized fitness plans.
+Knowledge of physiology and health monitoring.
+---
+Mila Rodriguez
+Nutrition Recommendation Scientist with expertise in health data.
+Worked with ML models for personalized diet plans.
+Knowledge of dietetics and wellness.
