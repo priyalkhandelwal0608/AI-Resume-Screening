@@ -1,35 +1,29 @@
-# AI Resume Screening
+# AI Resume Screening & Ranking System
 
-AI Resume Screening is a Natural Language Processing (NLP) project that ranks resumes against job descriptions using two approaches:
-- **TF‑IDF + Cosine Similarity** (keyword‑based matching)
-- **Sentence‑BERT Embeddings** (semantic similarity)
-
-This project demonstrates how recruiters can automate resume shortlisting by comparing candidate resumes with job requirements.
+An intelligent NLP-based recruitment tool that ranks resumes against job descriptions using both keyword-based matching and semantic context.
 
 ---
 
-# Features
-- Clean text preprocessing (lowercasing, stopword removal, lemmatization).
-- TF‑IDF vectorization with cosine similarity scoring.
-- Semantic similarity using `sentence-transformers` (BERT).
-- Flask web app with an attractive HTML interface.
-- Resume ranking results displayed with similarity scores.
+## 🌟 Features
+* **Text Preprocessing**: Automated cleaning pipeline using NLTK for lowercasing, stopword removal, and lemmatization.
+* **TF-IDF Similarity**: Ranks resumes based on term frequency and keyword overlap using Cosine Similarity.
+* **Sentence-BERT (SBERT)**: High-accuracy semantic ranking that understands the meaning behind job requirements, not just the keywords.
+* **Flask Web Interface**: Interactive web dashboard to paste job descriptions and batch-process resumes.
+* **Modular Architecture**: Separated logic for preprocessing, ranking engines, and web deployment.
 
 ---
 
-#Project Structure
+## 📂 Project Structure
+```text
 ai-resume-screening/
-│── app.py                # Flask app with HTML interface for resume screening
-│── main.py               # Console demo to run ranking directly
-│── ranker.py             # Contains ResumeRankerTFIDF and ResumeRankerBERT classes
-│── preprocess.py         # Text cleaning and preprocessing utilities (NLTK)
-│── requirements.txt      # Python dependencies
+│── app.py                # Flask web application interface
+│── main.py               # Terminal-based demo script
+│── ranker.py             # TF-IDF and BERT ranking logic classes
+│── preprocess.py         # NLP text cleaning and lemmatization
+│── requirements.txt      # List of Python dependencies
 │── README.md             # Project documentation
-│
-├── data/                 # Input data folder
-│   ├── job_description.txt   # Sample job description
-│   └── resumes.txt           # Sample resumes (separated by ---)
-│
-├── __pycache__/          # Auto-generated Python cache files
-│
-└── saved_models/         #  Folder for saved TF-IDF vectorizer or embeddings
+├── data/                 # Sample input data
+│   ├── job_description.txt
+│   └── resumes.txt       # Multiple resumes separated by '---'
+├── static/               # CSS styles for the web UI
+└── templates/            # HTML files (index.html)
