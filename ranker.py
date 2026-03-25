@@ -39,4 +39,8 @@ class ResumeRankerBERT:
 def rank(job_description, resumes, method="tfidf"):
     if method == "tfidf":
         return ResumeRankerTFIDF().fit(job_description, resumes)
+
     return ResumeRankerBERT().fit(job_description, resumes)
+
+    return ResumeRankerBERT().fit(job_description, resumes)
+

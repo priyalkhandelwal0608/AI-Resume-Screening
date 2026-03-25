@@ -266,4 +266,4 @@ Knowledge of physiology and health monitoring.
 Mila Rodriguez
 Nutrition Recommendation Scientist with expertise in health data.
 Worked with ML models for personalized diet plans.
-Knowledge of dietetics and wellness.
+

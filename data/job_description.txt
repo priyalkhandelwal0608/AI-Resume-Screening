@@ -196,4 +196,3 @@ Knowledge of physiology is a plus.
 ---
 Hiring a Recommendation Scientist for personalized nutrition.
 Experience with ML and health data is required.
-Knowledge of dietetics is a plus.
