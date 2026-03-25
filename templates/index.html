@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Screening</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1> AI Resume Screening</h1>
+        <p class="subtitle">Rank resumes against job descriptions using <b>TF‑IDF</b> or <b>BERT</b></p>
+
+        <form method="post" class="input-form">
+            <label for="job_description">Job Description:</label><br>
+            <textarea name="job_description" rows="6" required></textarea><br><br>
+
+            <label for="resumes">Resumes (separate with ---):</label><br>
+            <textarea name="resumes" rows="12" required></textarea><br><br>
+
+            <div class="btn-group">
+                <button type="submit" name="method" value="tfidf"> Rank with TF‑IDF</button>
+                <button type="submit" name="method" value="bert"> Rank with BERT</button>
+            </div>
+        </form>
+
+        <form method="post" action="/demo" class="demo-form">
+            <button type="submit" class="demo-btn">Run Demo Example</button>
+        </form>
+
+        {% if results %}
+        <div class="result">
+            <h2> Ranking Results ({{ method.upper() }})</h2>
+            {% for r, s in results %}
+                <div class="resume">
+                    <b>Score:</b> {{ "%.4f"|format(s) }} <br>
+                    <b>Resume:</b> {{ r[:300] }}...
+                </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
