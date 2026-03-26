@@ -7,35 +7,65 @@
 </head>
 <body>
     <div class="container">
-        <h1> AI Resume Screening</h1>
-        <p class="subtitle">Rank resumes against job descriptions using <b>TF‑IDF</b> or <b>BERT</b></p>
+        <h1>📄 AI Resume Screening</h1>
+        
+        <form action="/" method="post" enctype="multipart/form-data">
+            <div class="section">
+                <label>Job Description</label>
+                <textarea name="job_description" placeholder="Paste requirements here...">{{ demo_jd if demo_used else '' }}</textarea>
+            </div>
 
-        <form method="post" class="input-form">
-            <label for="job_description">Job Description:</label><br>
-            <textarea name="job_description" rows="6" required></textarea><br><br>
+            <div class="section">
+                <label>Upload Resumes (PDF)</label>
+                <input type="file" name="resume_files" multiple accept=".pdf">
+                <p class="divider">— OR —</p>
+                <textarea name="resumes" placeholder="Paste manual text here..."></textarea>
+            </div>
 
-            <label for="resumes">Resumes (separate with ---):</label><br>
-            <textarea name="resumes" rows="12" required></textarea><br><br>
+            <div class="section settings">
+                <label>Algorithm:</label>
+                <select name="method">
+                    <option value="tfidf">TF-IDF (Keyword Match)</option>
+                    <option value="bert">SBERT (Contextual Meaning)</option>
+                </select>
+            </div>
 
-            <div class="btn-group">
-                <button type="submit" name="method" value="tfidf"> Rank with TF‑IDF</button>
-                <button type="submit" name="method" value="bert"> Rank with BERT</button>
+            <div class="actions">
+                <input type="hidden" name="is_demo" id="is_demo_input" value="false">
+                <button type="submit" class="btn-primary" onclick="document.getElementById('is_demo_input').value='false';">Rank Resumes</button>
+                <button type="submit" class="btn-demo" onclick="document.getElementById('is_demo_input').value='true';">🚀 Run Demo</button>
             </div>
         </form>
 
-        <form method="post" action="/demo" class="demo-form">
-            <button type="submit" class="demo-btn">Run Demo Example</button>
-        </form>
-
         {% if results %}
-        <div class="result">
-            <h2> Ranking Results ({{ method.upper() }})</h2>
-            {% for r, s in results %}
-                <div class="resume">
-                    <b>Score:</b> {{ "%.4f"|format(s) }} <br>
-                    <b>Resume:</b> {{ r[:300] }}...
-                </div>
-            {% endfor %}
+        <div class="results">
+            <hr>
+            <h2>Ranking Results ({{ method }})</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Candidate</th>
+                        <th>Match Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for res in results %}
+                    <tr class="{% if loop.first %}top{% endif %}">
+                        <td>#{{ loop.index }}</td>
+                        <td><strong>{{ res.name }}</strong></td>
+                        <td>
+                            <div class="score-container">
+                                <span class="score-text">{{ res.score }}</span>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="width: {{ res.score }}%;"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
         {% endif %}
     </div>

@@ -4,7 +4,6 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
-# Ensure resources are downloaded once efficiently
 def download_nltk_data():
     pkgs = ['punkt', 'punkt_tab', 'stopwords', 'wordnet']
     for pkg in pkgs:
@@ -14,7 +13,6 @@ def download_nltk_data():
             nltk.download(pkg)
 
 download_nltk_data()
-
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
